@@ -46,6 +46,12 @@ input {
   padding-bottom: 96px;
 }
 
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .nav-container {
   display: flex;
   align-items: center;
@@ -129,7 +135,7 @@ input {
   transition: fill;
 }
 
-.mob-menu-list {
+.mob-menu-items {
   display: flex;
   flex-direction: column;
   gap: 40px;
